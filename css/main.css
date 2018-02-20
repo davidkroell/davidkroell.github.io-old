@@ -371,22 +371,6 @@
 					display: none;
 				}
 
-
-/* Footer */
-	#footer {
-		opacity: 0;
-		bottom: 2em;
-		cursor: default;
-		height: 6em;
-		left: 0;
-		line-height: 8em;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-		-webkit-animation: appear .4s 4s forwards;
-		animation: appear .4s 4s forwards;
-	}
-
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
