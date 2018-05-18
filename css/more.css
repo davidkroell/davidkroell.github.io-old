@@ -1,3 +1,19 @@
+.color-accent{
+    color: #5cdb95 !important;
+}
+
+.bg-color-accent{
+  background-color: #5cdb95 !important;
+}
+
+.color-primary{
+    color: #05386b !important;
+}
+
+.color-primary.light{
+  color: #42629a !important;
+}
+
 nav {
     z-index: 7;
   }
@@ -42,7 +58,7 @@ nav {
   }
   
   #nav-bg {
-    background: #42a5f5;
+    background: #05386b;
     position: fixed;
     z-index: 5;
     opacity: 0;
@@ -101,7 +117,7 @@ h1.header {
 /* Timeline */
 
 .timeline {
-  border-left: 8px solid #42A5F5;
+  border-left: 8px solid #42629a;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -153,9 +169,9 @@ h1.header {
 }
 
 .timeline .event:after {
-  box-shadow: 0 0 0 8px #42A5F5;
+  box-shadow: 0 0 0 8px #42629a;
   left: -30px;
-  background: #212121;
+  background: black;
   border-radius: 50%;
   height: 11px;
   width: 11px;
