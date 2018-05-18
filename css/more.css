@@ -10,8 +10,19 @@
     color: #05386b !important;
 }
 
+.bg-color-primary{
+    background-color: #05386b !important;
+}
+
 .color-primary.light{
   color: #42629a !important;
+}
+.bg-color-primary.light{
+  background-color: #42629a !important;
+}
+
+a {
+  color: #5cdb95;
 }
 
 nav {
@@ -42,6 +53,10 @@ nav {
     height: 100vh;
   }
 
+  section{
+    margin-top: 4em;
+  }
+
   header:before {
     content: ' ';
     display: block;
@@ -54,7 +69,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 65% 50%;
-    opacity: 0.35;
+    opacity: 0.2;
   }
   
   #nav-bg {
@@ -117,6 +132,7 @@ h1.header {
 /* Timeline */
 
 .timeline {
+  background-color: #fff;
   border-left: 8px solid #42629a;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
