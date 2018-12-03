@@ -304,6 +304,16 @@
 
 				#header nav li:nth-child(1) {
 					opacity: 0;
+					transform: translate3d(11.04em, 0, 0);
+					animation: slide-out-left 0.75s ease-in-out forwards;
+					-moz-animation-delay: 1.75s;
+					-webkit-animation-delay: 1.75s;
+					-ms-animation-delay: 1.75s;
+					animation-delay: 1.75s;
+				}
+
+				#header nav li:nth-child(2) {
+					opacity: 0;
 					transform: translate3d(5.52em, 0, 0);
 					animation: slide-out-left 0.75s ease-in-out forwards;
 					-moz-animation-delay: 1.75s;
@@ -312,8 +322,18 @@
 					animation-delay: 1.75s;
 				}
 
+				#header nav li:nth-child(4) {
+					opacity: 0;
+					transform: translate3d(-5.52em, 0, 0);
+					animation: slide-out-right 0.75s ease-in-out forwards;
+					-moz-animation-delay: 1.75s;
+					-webkit-animation-delay: 1.75s;
+					-ms-animation-delay: 1.75s;
+					animation-delay: 1.75s;
+				}
 
-				#header nav li:nth-child(3) {
+
+				#header nav li:nth-child(5) {
 					opacity: 0;
 					transform: translate3d(-5.52em, 0, 0);
 					animation: slide-out-right 0.75s ease-in-out forwards;
