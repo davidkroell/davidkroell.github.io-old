@@ -306,10 +306,10 @@
 					opacity: 0;
 					transform: translate3d(11.04em, 0, 0);
 					animation: slide-out-left 0.75s ease-in-out forwards;
-					-moz-animation-delay: 1.75s;
-					-webkit-animation-delay: 1.75s;
-					-ms-animation-delay: 1.75s;
-					animation-delay: 1.75s;
+					-moz-animation-delay: 2.15s;
+					-webkit-animation-delay: 2.15s;
+					-ms-animation-delay: 2.15s;
+					animation-delay: 2.15s;
 				}
 
 				#header nav li:nth-child(2) {
@@ -337,10 +337,10 @@
 					opacity: 0;
 					transform: translate3d(-5.52em, 0, 0);
 					animation: slide-out-right 0.75s ease-in-out forwards;
-					-moz-animation-delay: 1.75s;
-					-webkit-animation-delay: 1.75s;
-					-ms-animation-delay: 1.75s;
-					animation-delay: 1.75s;
+					-moz-animation-delay: 2.15s;
+					-webkit-animation-delay: 2.15s;
+					-ms-animation-delay: 2.15s;
+					animation-delay: 2.15s;
 				}
 
 			#header nav a {
@@ -400,7 +400,7 @@
 		text-align: center;
 		width: 100%;
 		-webkit-animation: appear .4s 4s forwards;
-		animation: appear .4s 4s forwards;
+		animation: appear .4s 5s forwards;
 	}
 	
 	/* Footer */
